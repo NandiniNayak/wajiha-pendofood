@@ -2,3 +2,13 @@
 @import "bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
+.navbar-default {
+    background-color: purple;
+    border-color: #e7e7e7;
+}
+
+.img-resize{
+    width: 200px;
+    height: 200px;
+}
