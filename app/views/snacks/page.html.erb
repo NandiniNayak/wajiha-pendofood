@@ -1,0 +1,20 @@
+<h1>Snacks</h1>
+<p>Find me in app/views/snacks/page.html.erb</p>
+
+<div class = "row">
+<% @snacks.each do |menu| %>
+ <div class = "col-md-4">
+     <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="panel-title"><%= link_to menu.name, menu%> <span class="badge pull-right">$ <%= menu.price %></span> </h2>
+      </div>
+      <div class="panel-body">
+        <%= image_tag menu.picture, width: '100%' %>
+        <p><%= menu.description %></p>
+        <p><%= link_to 'More info', menu, class: 'btn btn-warning' %></p>
+        <p>Availability: <%= menu.availability %></p>
+      </div>
+      </div>
+    </div>
+<% end %>
+</div>

@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  get 'drinks/page'
+
+  get 'snacks/page'
+
+  resources :orders
+  get 'item/page'
+
   resources :menus
   root 'home#page'
 

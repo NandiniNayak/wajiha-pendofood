@@ -3,12 +3,31 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Macondo|Merriweather|Roboto+Slab');
+
 .navbar-default {
-    background-color: purple;
+    background-color: #42f4d1;
     border-color: #e7e7e7;
 }
 
 .img-resize{
     width: 200px;
     height: 200px;
+}
+
+body{
+    background-color: #e0c0d9;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.navbar-default .navbar-brand {
+    color: #db18b0;
+    font-size: 2em;
+    font-family: 'Macondo', cursive;
+}
+
+.pendle-caption{
+    color: red;
+    font-family: 'Macondo', cursive;
+
 }
