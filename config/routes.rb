@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'dessert/page'
+
+  get 'meals/page'
+
   get 'drinks/page'
 
   get 'snacks/page'
