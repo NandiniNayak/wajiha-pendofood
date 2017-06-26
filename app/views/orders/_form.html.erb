@@ -4,6 +4,7 @@
   <div class="form-inputs">
     <%= f.association :menu %>
     <%= f.input :quantity %>
+    <%= f.input :delivery , collection: ["Recess", "Lunch1" , "Lunch2"] %>
   </div>
 
   <div class="form-actions">

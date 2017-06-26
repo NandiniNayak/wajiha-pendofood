@@ -2,12 +2,12 @@
 @import "bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
-
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Macondo|Merriweather|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Arvo|Bitter|Noto+Serif');
 
 .navbar-default {
-    background-color: #42f4d1;
-    border-color: #e7e7e7;
+    background-color: #64d5db;
+    border-color: #7ff8ff;
+    font-size: 1em;
 }
 
 .img-resize{
@@ -16,18 +16,14 @@
 }
 
 body{
-    background-color: #e0c0d9;
+    
     font-family: 'Libre Baskerville', serif;
+    background-image: url("https://media.giphy.com/media/EpnWW0kZp1xPW/giphy.gif");
+    
 }
 
 .navbar-default .navbar-brand {
-    color: #db18b0;
-    font-size: 2em;
-    font-family: 'Macondo', cursive;
-}
-
-.pendle-caption{
-    color: red;
-    font-family: 'Macondo', cursive;
-
+    font-family: 'Bitter', serif;
+    color: #615163;
+    font-size: 2.5em;
 }

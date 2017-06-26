@@ -1,33 +1,41 @@
-<h1>Canteen-APP</h1>
-<%= link_to 'Create Menu', new_menu_path, class: 'btn btn-success' %>
-<%= link_to 'List Menu Items' , item_page_path ,class: 'btn btn-info' %>
-<%= link_to 'Place order', new_order_path , class: 'btn btn-danger' %>
-
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div class = "jumbotron">
+  <div class= "row">
+    <div class = "col-md-6">
+      <h1>Canteen App</h1>
+      <p>It's self explanotary, really. you just order food here</p>
+      <%= link_to 'Show Menu' , item_page_path ,class: 'btn btn-info' %>
+      <%= link_to 'Place order', new_order_path , class: 'btn btn-primary' %>
+    </div>
+    <div class = "col-md-6">
+      <%= image_tag("http://www.education.net.au/logo/[3878]pendlehillhigh1.gif") %>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
   </ol>
-
+</div>
+    <div class = "col-md-6">
+      <%= image_tag("https://media.giphy.com/media/o9ngTPVYW4qo8/giphy.gif") %>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="https://res-2.cloudinary.com/coder-factory/image/upload/v1478755063/nprahxeyu8tycoitugiy.png" width = "120%" alt="...">
+      <img src = "", width = "100%",height = "100%">
       <div class="carousel-caption">
-       <h1 class ="pendle-caption"> We Awesome students Built this cool website</h1>
+       
       </div>
     </div>
     <div class="item">
-      <img src="https://lh3.googleusercontent.com/HrsCxw-nFYvSEe9z-rztYKuzT11bz0baA5DOvrUXie0X9DpUzrLd3m0PYbxe_h5IgsUcLvyiNvdo3e3DuTYUpB1ygZ9xHf0FDIQ1tnBBw54knk432xVIAJLUb941nfTvyiRb_Vwr" alt="...">
+      <img src="", width = "100%" , height = "100%" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
     
     <div class="item">
-      <img src="http://www.technobuffalo.com/wp-content/uploads/2014/04/fast-food.jpg" alt="...">
+      <img src="" , width = 100% , height = 100% alt="...">
       <div class="carousel-caption">
         ...
       </div>
@@ -44,3 +52,9 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+    </div>
+    
+  </div>
+</div>
+
+
